@@ -1,6 +1,6 @@
 # setup_lldp.sh
 
-This script, `setup_lldp.sh`, is a simple utility designed to install, configure, and enable the Link Layer Discovery Protocol (LLDP) on network interfaces for Linux systems.  LLDP is a network protocol used to identify and announce devices and their network topology.  This script automates the process of installing `lldpad` and `lldpd`, then enables LLDP on each available Ethernet interface.  
+This script, `setup_lldp.sh`, is a simple utility designed to install, configure, and enable the Link Layer Discovery Protocol (LLDP) on network interfaces for Linux systems.  LLDP is a network protocol used to identify and announce devices and their network topology.  This script automates the process of installing `lldpad` and `lldpd`, then enables LLDP on each available Ethernet interface `eth*|ens*|eno*`.  
 
 This setup is especially useful on Raspberry Pi or other devices where identifying network links and configurations can simplify management and troubleshooting.
 
@@ -23,7 +23,7 @@ After downloading or cloning the script, modify the permissions to allow executi
 sudo chmod +x setup_lldp.sh
 ```
 
-### 1. Run the Script Executable
+### 1. Run the Script
 
 ```bash
 ./setup_lldp.sh
