@@ -21,3 +21,9 @@ After downloading or cloning the script, modify the permissions to allow executi
 
 ```bash
 sudo chmod +x setup_lldp.sh
+
+
+### 1. Run the Script Executable
+
+```bash
+./setup_lldp.sh
